@@ -1,0 +1,16 @@
+.search-bar {
+    position: relative;
+  }
+  
+  .prefix-icon {
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1.2rem;
+  }
+  
+  .search-bar input {
+    padding-left: 2rem;
+  }

@@ -1,0 +1,128 @@
+.flag {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .dark-mode {
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerLeft {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  
+  .headerRight {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.4rem;
+    margin-right: 1rem;
+    width: 300px;
+  }
+  
+  .regionFilter {
+    padding: 0.8rem 1rem;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.4rem;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flag {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .details {
+    flex: 1;
+  }
+  
+  .name {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  
+  .population,
+  .region,
+  .capital {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+  
