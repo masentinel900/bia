@@ -38,7 +38,6 @@ const HomePage: React.FC = () => {
 
   return (
     <>
-      <Header title="Where in the world?" onDarkModeToggle={() => {}} />
       <div className="header-container d-flex justify-content-between my-3">
           <SearchBar onSearch={handleSearch} onRegionFilter={function (event: React.ChangeEvent<HTMLSelectElement>): void {
             throw new Error('Function not implemented.');

@@ -1,0 +1,9 @@
+.navHeader {
+    background: hsl(0, 0%, 100%);
+    position: relative;
+}
+.descriptionList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
